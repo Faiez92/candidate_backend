@@ -8,10 +8,10 @@
 
 ## Running the django application
 
-- Create a virtual environment (optional)
+- Create a virtual environment and activate (optional)
 - Install dependencies : `pip install -r requirements.txt`
-- Run migration: `python manage.py migrate`
-- Create admin account `python manage.py createsuperuser`
+- Run migration: `python manage.py makemigrations` then `python manage.py migrate`
+- Create admin account `python manage.py createsuperuser` (optional)
 - Run the server: `python manage.py runserver`
 - Visit http://localhost:8000 in your browser
 - Visit the admin panel http://localhost:8000/admin to easily manipulate data
